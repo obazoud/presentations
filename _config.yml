@@ -13,6 +13,8 @@ defaults:
     values:
       layout: "reveal-post"
 
+baseurl: /presentations
+
 # The Reveal theme
 reveal_theme: default.css
 
@@ -20,7 +22,7 @@ reveal_theme: default.css
 reveal_transition: default
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
-reveal_theme_path: /reveal.js/css/theme/ 
+reveal_theme_path: /presentations/reveal.js/css/theme/ 
 
 # Embed Server-side speaker notes?
 reveal_notes_server: false
@@ -32,7 +34,7 @@ reveal_options:
 reveal_dependencies: 
 
 # Reveal.js subdirectory
-reveal_path: /reveal.js/
+reveal_path: /presentations/reveal.js/
 
 # Don't change anything below
 markdown: redcarpet
