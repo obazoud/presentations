@@ -3,10 +3,10 @@ layout: reveal
 title: not used. Use _config.yml!
 ---
 
-{% for post in site.posts reversed %}
-<section data-markdown data-separator="^\n---\n$" data-vertical="^\n--\n$" data-notes="^Note:">
-<script type="text/template">
-{{ post.content }}
-</script>
-</section>
-{% endfor %}
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
