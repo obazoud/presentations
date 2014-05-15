@@ -1,5 +1,7 @@
 # Your presentation title
-title: Jekyll and Reveal.js
+title: Guilhem's presentations
+
+author: Guilhem Lettron
 
 defaults:
   -
@@ -22,7 +24,7 @@ reveal_theme: default.css
 reveal_transition: default
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
-reveal_theme_path: /presentations/reveal.js/css/theme/ 
+reveal_theme_path: /reveal.js/css/theme/ 
 
 # Embed Server-side speaker notes?
 reveal_notes_server: false
@@ -34,10 +36,9 @@ reveal_options:
 reveal_dependencies: 
 
 # Reveal.js subdirectory
-reveal_path: /presentations/reveal.js/
+reveal_path: /reveal.js/
 
 # Don't change anything below
 markdown: redcarpet
 pygments: true
 markdown_ext: ignoreme
-
